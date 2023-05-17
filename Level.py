@@ -1,5 +1,6 @@
 import pygame
 from settings import *
+
 class Level:
     def __init__(self):
         # superficie do display
@@ -10,8 +11,10 @@ class Level:
         #sprite setup
         self.create_map()
     def create_map(self):
-        for row in WORLD_MAP:
-            print(row)
+        for row_index, row in enumerate(WORLD_MAP):
+            for col_index, col in enumerate(row):
+                x = col_index * TITLESIZE
+                y = row_index * TITLESIZE
     def run_game(self):
         pass
     
