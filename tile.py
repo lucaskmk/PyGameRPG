@@ -1,6 +1,6 @@
 import pygame
 from pygame.sprite import _Group
-from Settings import *
+from settings import *
 
 # pos = posicao
 class Tile(pygame.sprite.Sprite):
