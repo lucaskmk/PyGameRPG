@@ -1,6 +1,6 @@
 # Variaveis do jogo
-WIDTH       = 1920
-HEIGHT      = 1800
+WIDTH       = 1280
+HEIGHT      = 720
 FPS         = 60
 TITLESIZE   = 64
 # posicao do p x = 2 vezes o title zise e y tbm ent 128 xy

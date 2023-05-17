@@ -22,6 +22,7 @@ class Game:
 			self.screen.fill('black')
 			pygame.display.update()
 			self.clock.tick(FPS)
+			
    # ============================================ EVENT LOOP ================
 
 if __name__ == '__main__':

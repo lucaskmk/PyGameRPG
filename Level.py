@@ -1,5 +1,7 @@
 import pygame
 from settings import *
+from tile import Tile
+from player import Player
 
 class Level:
     def __init__(self):
@@ -15,6 +17,8 @@ class Level:
             for col_index, col in enumerate(row):
                 x = col_index * TITLESIZE
                 y = row_index * TITLESIZE
+                if col == 'x':
+                    Tile((x,y),[self.visible_sprites])
     def run_game(self):
-        pass
+        self.visible_sprites.draw(self.display_surface)
     
