@@ -10,6 +10,8 @@ class Game:
 		self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
 		pygame.display.set_caption('RPixelsG')
 		self.clock = pygame.time.Clock()
+  
+  
 		self.level = Level()
 	# ============================================ EVENT LOOP ================
 	def run(self):
